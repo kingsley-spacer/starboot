@@ -6,7 +6,7 @@ a simple way to write java API and document for users, teams, and enterprises.
 
 # 第一步：启用服务
 	 //starboot-api:在项目启动类中创建扫描器,可以描扫多个包
-	 Starbooter.star("项目名称","com.starbooter.app"...);
+	 Starbooter.star("项目名称","com.starbooter.app",...);
   
 # 第二步：使用接口，参考：usercenter.java
 
