@@ -1,9 +1,10 @@
-package com.starbooter.app;
+package com.starbooter.main;
 
 import com.starbooter.api.annotation.Api;
 import com.starbooter.api.annotation.ApiAuthor;
 import com.starbooter.api.annotation.ApiCatalog;
 import com.starbooter.api.annotation.ApiField;
+import com.starbooter.api.annotation.ApiHeader;
 import com.starbooter.api.annotation.ApiParam;
 import com.starbooter.api.struct.ApiParamDataType;
 
@@ -22,6 +23,12 @@ public class usercenter {
 	 *  author - 接口作者，如果不指定到方法，则继承类的作者
 	 */
 	@ApiAuthor(author = "kingsleysb")
+	/**
+	 * @ApiHeader 
+	 *  name - header 名称
+	 *  desc - header 描述
+	 */
+	@ApiHeader(name= "token" ,desc = "手机令牌token")
 	/**
 	 * @Api 
 	 *  name - 接口名称
