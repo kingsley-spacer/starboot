@@ -10,10 +10,10 @@ a simple way to write java API and document for users, teams, and enterprises.
   
 # 第二步：使用接口，参考：usercenter.java
 
-注意：使用starbooter-api需要在pom中添加fastjson依赖：
+# 注意：使用starbooter-api需要在pom中添加fastjson依赖：
 
- //<dependency>
-   // <groupId>com.alibaba</groupId>
-    //<artifactId>fastjson</artifactId>
-    //<version>1.2.4</version>
-//</dependency>
+      <dependency>
+         <groupId>com.alibaba</groupId>
+         <artifactId>fastjson</artifactId>
+         <version>1.2.4</version>
+      </dependency>
