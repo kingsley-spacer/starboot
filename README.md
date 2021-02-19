@@ -15,7 +15,7 @@ a simple way to write java API and document for users, teams, and enterprises.
 	 response.setContentType("text/html;charset=utf-8");
 	 PrintWriter out = response.getWriter();
 	 out.println(page);
-	 out.closee()
+	 out.close();
 	 
 # 第三步：使用接口，参考：usercenter.java
 
