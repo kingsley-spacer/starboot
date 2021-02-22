@@ -15,8 +15,8 @@ a simple way to write java API and document for users, teams, and enterprises.
 	 
 # 第三步：配置访问路径
 
-       //获取接口列表的HTML页面字符串对象
-       String page = ApiHtml.getApiPage();
+     //获取接口列表的HTML页面字符串对象
+     String page = ApiHtml.getApiPage();
 	 //这里使用PrintWriter渲染页面，可以根据自己的实际框架来使用框架的渲染方式
 	 HttpServletResponse response = getResponse();
 	 response.setContentType("text/html;charset=utf-8");
